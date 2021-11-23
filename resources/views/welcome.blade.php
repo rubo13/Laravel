@@ -72,6 +72,22 @@
 
                 <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div class="text-sm lg:flex-grow ml-3">
+                       <a href="{{ url('adopcion/animales') }}" class="text-lg font-semibold text-gray-100 no-underline">
+                            {{ __("Quien soy") }}
+                        </a> 
+                    </div>
+                </div>
+
+                <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                    <div class="text-sm lg:flex-grow ml-3">
+                       <a href="{{ url('adopcion/animales') }}" class="text-lg font-semibold text-gray-100 no-underline">
+                            {{ __("Servicios") }}
+                        </a> 
+                    </div>
+                </div>
+
+                <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                    <div class="text-sm lg:flex-grow ml-3">
                        <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
                             {{ __("Contacto") }}
                         </a> 
